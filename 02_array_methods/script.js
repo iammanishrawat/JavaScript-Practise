@@ -6,6 +6,26 @@
 
 /* --------------methods of arrays-------------- */
 
+// const myArray = [1, 2, 3, 4, 5, 6, 7]
+
+// const myNewArray = myArray.toString()
+// console.log(myArray); // object
+// console.log(myNewArray); //string
+
+// const myNewArray = myArray.join("")
+// console.log(myArray); // object
+// console.log(myNewArray); //string
+
+// delete myArray[1]
+// console.log(myArray);  //delete is a operator
+
+// const myArray = ['Manish', 'Apple', 'Singh']
+// const myArray = [101, 999, 300, 400, 501, 600, 407]
+
+// myArray.sort() // need to know about compare function for sort method
+// console.log(myArray);
+
+
 // const myArray = [10, 20, 30, 40, 50, 80, 90]
 
 // const myNewArray = myArray.push(100, 200, 300) // can also do as a new variable declaration
