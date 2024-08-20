@@ -74,9 +74,9 @@
 
 
 
-// console.log(Array.from("manish")); // convert string into an array
+// console.log(Array.from("manish")); // convert string and html collections into an new array
 
-// console.log(Array.from({name: "Manish"})); // in this scenario this cannot convert into array
+// console.log(Array.from({name: "Manish"})); // in this scenario (object) cannot convert into array
 
 // let scoreOne = 100
 // let scoreTwo = 200
