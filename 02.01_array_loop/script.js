@@ -49,3 +49,16 @@ const array = [0, 1, 2, 3, 4, 5]
 
 // let newArray = array.reduce(reduceFunction)
 // console.log(newArray);
+
+
+
+// let userName = prompt("Enter your number")
+// userName = String(userName)
+// alert(`Your Name is ${userName}`);
+// console.log(`Enter Name is ${userName}`);
+
+
+// for (let i=0; i < 50; i++) {
+//     console.log(i);
+// }
+
