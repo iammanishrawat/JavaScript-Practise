@@ -73,3 +73,126 @@
 
 // console.log(sum(`Manish`));
 // console.log(sum(5, 5));
+
+
+
+
+
+// class Calc {
+//     input1 = 2
+//     input2 = 5
+
+//     add() {
+//         setTimeout(function() {
+//             console.log(`inside add function`)
+//             console.log(`this.input1 ==`, this.input1)
+//             console.log(`this.input2 ==`, this.input2)
+
+//             console.log(`this.input1 + this.input2 ====`, this.input1 + this.input2)
+//         }, 2000)
+        
+//         setTimeout(() => {
+//             console.log(`inside add arrow`)
+//             console.log(`this.input1 ==`, this.input1)
+//             console.log(`this.input2 ==`, this.input2)
+
+//             console.log(`this.input1 + this.input2 ====`, this.input1 + this.input2)
+//         }, 4000)    
+//     }
+
+//     diff = () => {
+//         setTimeout(function() {
+//             console.log(`inside diff function`)
+//             console.log(`this.input1 ==`, this.input1)
+//             console.log(`this.input2 ==`, this.input2)
+
+//             console.log(`this.input1 + this.input2 ====`, this.input1 + this.input2)
+//         }, 6000)
+        
+//         setTimeout(() => {
+//             console.log(`inside diff arrow`)
+//             console.log(`this.input1 ==`, this.input1)
+//             console.log(`this.input2 ==`, this.input2)
+
+//             console.log(`this.input1 + this.input2 ====`, this.input1 + this.input2)
+//         }, 8000)        
+        
+//         // console.log(`inside diff`)
+//         // console.log(`this.input1 ==`, this.input1)
+//         // console.log(`this.input2 ==`, this.input2)
+
+//         // return this.input1 + this.input2
+//     }
+// }
+
+// const obj1 = new Calc()
+
+// obj1.add()
+// obj1.diff()
+
+
+// const obj1 = {
+//     input1: 2,
+//     input2: 5,
+//     add: function() {
+//         setTimeout(function() {
+//             console.log(`inside add function`)
+//             console.log(`this.input1 ==`, this.input1)
+//             console.log(`this.input2 ==`, this.input2)
+
+//             console.log(`this.input1 + this.input2 =========`, this.input1 + this.input2)
+//         }, 2000)
+
+//         setTimeout(() => {
+//             console.log(`inside add arrow`)
+//             console.log(`this.input1 ==`, this.input1)
+//             console.log(`this.input2 ==`, this.input2)
+
+//             console.log(`this.input1 + this.input2 =========`, this.input1 + this.input2)
+//         }, 4000)
+//     },
+//     diff: () => {
+//         setTimeout(function() {
+//             console.log(`inside diff function`)
+//             console.log(`this.input1 ==`, this.input1)
+//             console.log(`this.input2 ==`, this.input2)
+
+//             console.log(`this.input1 + this.input2 =========`, this.input1 + this.input2)
+//         }, 6000)
+
+//         setTimeout(() => {
+//             console.log(`inside diff arrow`)
+//             console.log(`this.input1 ==`, this.input1)
+//             console.log(`this.input2 ==`, this.input2)
+
+//             console.log(`this.input1 + this.input2 =========`, this.input1 + this.input2)
+//         }, 8000)
+//     }
+// }
+
+// obj1.add()
+// obj1.diff()
+
+
+
+
+// function add(...allInput) {
+//     // console.log(input1, input2)
+//     console.log(allInput)
+//     console.log(...allInput)
+// }
+
+// add(1,2,3,4,5,6,7,8)
+
+
+const obj = {
+    id: 1,
+    name: "manish",
+    email: "manish@gmail.com"
+}
+
+const {id, name,  ...restObjectKeys} = obj
+console.log(`id ===`, id)
+console.log(`name ===`, name)
+console.log(`rest ===`, restObjectKeys)
+// console.log(`rest ===`, ...restObjectKeys)

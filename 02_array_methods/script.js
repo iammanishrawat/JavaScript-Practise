@@ -20,9 +20,10 @@
 // console.log(myArray);  //delete is a operator
 
 // const myArray = ['Manish', 'Apple', 'Singh']
-// const myArray = [101, 999, 300, 400, 501, 600, 407]
+// const myArray = [10, 9, 90, 11, 12, 50, 407]
 
 // myArray.sort() // need to know about compare function for sort method
+// myArray.sort((a, b) => a - b);
 // console.log(myArray);
 
 
@@ -69,8 +70,8 @@
 
 // const bumpArray = [1, 2, 3, [4, 5], 6, [7, 8, [9, 10], 11], 12, 13]
 
-// const flatArray = bumpArray.flat(Infinity) //flat the array in a new array
-// console.log(flatArray);
+// const flatArray = bumpArray.flat(2) //flat the array in a new array 
+// console.log(flatArray); // also we can use infinity for leveling
 
 
 
