@@ -23,25 +23,6 @@
 // rest and spread examples
 
 
-// set example
-
-// const mySet = new Set();
-
-// mySet.add(1);
-// mySet.add(2);
-// mySet.add(2); // Duplicate, won't be added
-
-// console.log(mySet); // Output: Set { 1, 2 }
-
-// mySet.delete(1);
-// console.log(mySet); // Output: Set { 2 }
-
-// console.log(mySet.has(2)); // Output: true
-// console.log(mySet.size); // Output: 1
-
-// set example
-
-
 // spread example in array
 
 // let arr1 = [1, 2, 3]
