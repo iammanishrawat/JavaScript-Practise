@@ -38,3 +38,65 @@
 
 // console.log(mySet.has(2)); // Output: true
 // console.log(mySet.size); // Output: 1
+
+// set example
+
+
+// spread example in array
+
+// let arr1 = [1, 2, 3]
+// let arr2 = [4, 5, 6]
+
+// let arr3 = []
+// arr3 = arr1
+// arr3 = [...arr1, ...arr2]
+
+// spread example in array
+
+// spread example in object
+
+// let obj1 = {
+//     id1: 1,
+//     id2: 2
+// }
+// let obj2 = {
+//     id3: 3,
+//     id4: 4
+// }
+// let obj3 = [
+//     ...obj1,
+//     ...obj2
+// ]
+// console.log(obj3)
+
+// spread example in object
+
+
+// rest example in function
+
+// function add(input1, input2, ...allInput) {
+//     // console.log(input1, input2, input3, input4, input5)
+//     console.log(allInput)
+// }
+
+// add(1, 2, 3, 4, 5, 6, 7)
+
+// rest example in function
+
+
+// rest example in object
+
+// let obj1 = {
+//     id: 1,
+//     name: 'Manish',
+//     email: "m@gmail.com",
+//     add: () => {},
+//     obj2: {}
+// }
+
+// let {id, ...otherKeys} = obj1
+// console.log(`id ==`, id)
+// console.log(`otherKeys ==`, otherKeys)
+
+
+// rest example in object
