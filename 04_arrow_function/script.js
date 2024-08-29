@@ -172,27 +172,3 @@
 
 // obj1.add()
 // obj1.diff()
-
-
-
-
-// function add(...allInput) {
-//     // console.log(input1, input2)
-//     console.log(allInput)
-//     console.log(...allInput)
-// }
-
-// add(1,2,3,4,5,6,7,8)
-
-
-const obj = {
-    id: 1,
-    name: "manish",
-    email: "manish@gmail.com"
-}
-
-const {id, name,  ...restObjectKeys} = obj
-console.log(`id ===`, id)
-console.log(`name ===`, name)
-console.log(`rest ===`, restObjectKeys)
-// console.log(`rest ===`, ...restObjectKeys)
