@@ -37,3 +37,15 @@
 
 // intro()
 // productList()
+
+
+
+
+
+// what is promises? is fetch also a promise?
+
+// why await behaves like a synchronous function?
+
+// in async and await we do not use resolve and reject callbacks?
+
+// js is already a synchronous then why we need this await to wait the execution of previous value? 
