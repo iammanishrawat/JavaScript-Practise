@@ -110,3 +110,35 @@
 //   console.log(i);  // This will execute once, even though the condition is false.
 //   i++;
 // } while (i < 5);
+
+
+
+// array manipulation without using methods
+
+let fruits = ["apple", "banana", "orange"]
+// i need to add mango at the last element in the existing array here (push)
+// fruits[fruits.length] = "mango"
+
+
+// i need to remove last element in the existing array here and change exiting array without last element (pop)
+// let lastFruit = fruits[fruits.length - 1]
+// fruits.length = fruits.length - 1
+// console.log(lastFruit);
+// console.log(fruits);
+
+
+// i need to add mango at the first element in the existing array here (unshift)
+// for (let i = fruits.length; i > 0; i--) {
+//     fruits[i] = fruits[i - 1]
+// }
+// fruits[0] = "mango";
+// console.log(fruits);
+
+// i need to remove first element in the existing array here and change exiting array without first element (shift)
+// let firstFruit = fruits[0]
+// for (let i = 0; i < fruits.length - 1; i++) {
+//     fruits[i] = fruits[i + 1]
+// }
+// fruits.length = fruits.length - 1
+// console.log(firstFruit);
+// console.log(fruits);
