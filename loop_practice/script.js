@@ -115,7 +115,7 @@
 
 // array manipulation without using methods
 
-let fruits = ["apple", "banana", "orange"]
+// let fruits = ["apple", "banana", "orange"]
 // i need to add mango at the last element in the existing array here (push)
 // fruits[fruits.length] = "mango"
 
@@ -142,3 +142,42 @@ let fruits = ["apple", "banana", "orange"]
 // fruits.length = fruits.length - 1
 // console.log(firstFruit);
 // console.log(fruits);
+
+// array manipulation without using methods
+
+
+// let sum = 0
+
+// for (let i = 1; i <= 100; i++) {
+//     sum += i
+// }
+// console.log(sum);
+
+
+// for (let i = 2; i <= 20; i+=2) {
+//     console.log(i);    
+// }
+
+// let factorialValue = 1
+// for (let i = 5; i >= 1; i--) {
+//     factorialValue *= i    
+// }
+
+// console.log(factorialValue);
+
+
+
+// let myArrayOne = [1, 2, 3, 4, 5]
+
+// let newArrayOne = []
+// for (let i = 0; i <= myArrayOne.length - 1; i++){
+//     newArrayOne = myArrayOne.reverse()
+// }
+// console.log(newArrayOne);
+
+// let myArray = [1, 2, 3, 4, 5]
+// let newArray = []
+// for (let i = myArray.length - 1; i >= 0 ; i--) {
+//     newArray.push(myArray[i])
+// }
+// console.log(newArray);
