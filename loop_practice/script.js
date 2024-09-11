@@ -16,6 +16,10 @@
 // while (i <= 100)
 
 
+
+
+
+
 // let sum = 0;
 // for (let i = 0; i <= 10; i++) {
 //     sum = sum + i
@@ -38,6 +42,9 @@
 //     i++    
 // } while (i <= 10)
 // console.log(sum);
+
+
+
 
 
 
