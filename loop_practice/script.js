@@ -100,13 +100,30 @@
 
 // print prime number
 
-for (let i = 1; i <= 10; i++) {
-    if (i % 1 == 0 && i % i == 0) {
-        // console.log(i);
-    }
-    for(let j = 2; j <= j - i; j++){
-        if (j % i !==0) {
-            console.log(i);
+
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 1 == 0 && i % i == 0) {
+//         // console.log(i);
+//     }
+//     for (let j = 1; j <= i; j++) {
+//         if (j == 2) {
+//             // console.log(j);
+//         }
+//     }
+//     console.log(i);
+    
+// }
+
+for (let i = 2; i <= 100; i++) {
+    flag = true;
+    for (let j = 2; j <= i - 1; j++) {
+        if (i % j == 0){
+            flag = false;
+            break;
         }
+    }
+    if (flag) {
+        console.log(i);
     }
 }
