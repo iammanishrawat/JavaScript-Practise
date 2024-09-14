@@ -118,6 +118,24 @@
 
 // console.log(primeNumber);
 
+//  one more example
+// let primeNumberArray = []
+// for (i = 2; i <= 100; i++) {
+//     isDivisible = false
+//     for (j = 2; j < i; j++) {
+//         if (i % j == 0) {
+//             isDivisible = true
+//             break
+//         }
+//     }
+
+//     if (!isDivisible) {
+//         primeNumberArray.push(i)
+//     }
+// }
+
+// console.log(primeNumberArray)
+
 
 // let primeNumber = []
 // let i = 2;
@@ -186,3 +204,42 @@
 // } while (i <= 5);
 
 // console.log(factors);
+
+
+
+// print a string in reverse
+
+// let stringName = ["M", "A", "N", "I", "S", "H"]
+// let newName = []
+// for (let i = stringName.length - 1; i >= 0; i--) {
+//     newName.push(stringName[i])
+// }
+// console.log(newName.join(" "));
+
+
+
+//  print the multiples of 7    
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i * 7);
+// }
+
+
+
+
+
+
+// print count of vowels in a string
+let string = 'Manish'
+let vowels = "aeiouAEIOU"
+let vowelCount = 0
+
+for (let i = 0; i < string.length; i++) {
+    if (vowels.includes(string[i])) {
+        vowelCount++
+    }
+
+}
+
+console.log(`number of vowels are ${vowelCount}`);
+
