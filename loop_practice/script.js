@@ -230,16 +230,115 @@
 
 
 // print count of vowels in a string
-let string = 'Manish'
-let vowels = "aeiouAEIOU"
-let vowelCount = 0
+// let userName = "Manish Rawat"
+// let vowels = "aeiou".toLocaleLowerCase()
+// let vowelCounts = 0
+// // now we need to find vowel letters as well
+// let vowelLetters = []
+// for (let i = 0; i < userName.length; i++) {
+//     if (vowels.includes(userName[i])) {
+//         vowelCounts++
+//         vowelLetters.push(userName[i])
+//     }
+// }
 
-for (let i = 0; i < string.length; i++) {
-    if (vowels.includes(string[i])) {
-        vowelCount++
-    }
+// console.log(`total vowel counts are ${vowelCounts}`);
 
-}
+// console.log(`letters which are vowel in username are ${vowelLetters}`);
 
-console.log(`number of vowels are ${vowelCount}`);
+
+
+
+
+// Print elements of an array  - and also find the largest number in the array
+
+// let array = [1000, 200, 10, 22, 35, 55, 87, 100, 101, 250, 5000]
+// let largestNumber = array[0]
+
+// for (let i = 0; i < array.length; i++) {
+//     if (array[i] > largestNumber) {
+//         largestNumber = array[i]
+//     }
+// }
+
+// console.log(`largest number is in array is ${largestNumber}`);
+
+
+
+
+
+// print sum of even numbers
+
+// let sum = 0
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//         sum = sum + i       
+//     }
+// }
+
+// console.log(sum);
+
+
+
+
+
+// print the sum of odd numbers
+// let sum = 0
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 !== 0) {
+//         sum = sum + i
+//     }
+// }
+
+// console.log(sum);
+
+
+
+// print the array in reverse
+// array = [10, 20, 30, 40, 50, 60, 70]
+// reverseArray = []
+// for (let i = array.length - 1; i > 0; i--) {
+//     reverseArray.push(array[i])
+// }
+
+// console.log(reverseArray);
+
+
+
+
+// find the smallest number in the array
+
+// let = array = [10, 20, 30, 40, 50, 5]
+// let smallestNumber = array[0]
+
+// for (let i = 0; i < array.length; i++) {
+//     if (array[i] < smallestNumber) {
+//         smallestNumber = array[i]
+//     }
+// }
+
+// console.log(smallestNumber);
+
+
+
+
+// print duplicate values in an array - not completed
+// let array = [10, 20, 30, 40, 50, 60, 70, 30, 40, 50]
+// let repeatedValueArray = []
+
+// for (let i = 0; i < array.length; i++) {
+//     if (array.indexOf(i) <= 1) {
+//         repeatedValueArray.push(array[i])
+//     }
+// }
+
+// console.log(repeatedValueArray);
+
+
+
+
+
+
+
+
 
