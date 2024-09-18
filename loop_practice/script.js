@@ -337,8 +337,43 @@
 
 
 
+// print fibonacci numbers in an array
+
+// let a = 0
+// let b = 1
+// let fibArray = []
+// fibArray.push(b)
+// let nextNum = a + b
+// fibArray.push(nextNum)
+
+// for (let i = 0; i <= 8; i++) {
+//     a = b
+//     b = nextNum
+//     nextNum = a + b
+//     fibArray.push(nextNum)
+// }
+
+// console.log(fibArray);
 
 
 
 
 
+// print Tribonacci numbers in an array
+
+// let a = 0
+// let b = 1
+// let c = 1
+// let nextNum = a + b + c
+// console.log(b);
+// console.log(c);
+// console.log(nextNum);
+
+// for (i = 0; i <= 10; i++) {
+//     a = b
+//     b = c
+//     c = nextNum
+//     nextNum = a + b + c
+//     console.log(nextNum);
+    
+// }
