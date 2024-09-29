@@ -375,5 +375,126 @@
 //     c = nextNum
 //     nextNum = a + b + c
 //     console.log(nextNum);
-    
+
 // }
+
+
+
+
+// print repeated numbers in an array
+
+// let arrayOne = [1, 2, 3, 4, 5, 6, 1, 5, 6, 2]
+
+// let arrayTwo = []
+// let arrayThree = []
+
+// for (let i = 0; i < arrayOne.length; i++) {
+//     if (arrayTwo.includes(arrayOne[i])) {
+//         arrayThree.push(arrayOne[i])
+//     } else {
+//         arrayTwo.push(arrayOne[i])
+//     }
+// }
+// console.log(arrayTwo);
+// console.log(arrayThree);
+
+
+
+
+
+// let arrayOne = [1, 2, 3, 4, 5, 6, 1, 5, 16, 2]
+
+// let BiggestNum = arrayOne[0]
+
+// for (let i = 0; i < arrayOne.length; i++) {
+//     if (arrayOne[i] > BiggestNum) {
+//         BiggestNum = arrayOne[i]
+//     }
+// }
+
+// console.log(BiggestNum);
+
+
+
+
+
+
+
+
+
+
+
+
+// ======================================================================================
+
+
+
+// let primeNumberArray = []
+// for (let i = 1; i <= 100; i++) {
+//     let isDivisible = false;
+//     for (j = 2; j <= i - 1; j++) {
+//         if (i % j == 0) {
+//             isDivisible = true
+//             break
+//         }
+//     }
+//     if(!isDivisible) {
+//         primeNumberArray.push(i)
+//     }
+
+// }
+
+// console.log(primeNumberArray);
+
+
+
+
+
+// let gameNumber = 7
+
+// let personNumber = prompt("Please guess a number", )
+
+// while (gameNumber != personNumber) {
+//     personNumber = prompt("You have guessed wrong, please try again", )
+// }
+
+// console.log(`Congrats, your right number is ${personNumber}`);
+
+
+
+// let str = "301624"
+// for (const val of str) {
+//     console.log(val);
+// }   
+
+// let str = "301624"
+// let = sum = 0
+// for (let i = 0; i < str.length; i++) {
+//     sum = sum + parseInt(str[i])
+// }
+
+// console.log(sum);
+
+
+// let str = "Manish"
+
+// console.log(str.length);
+
+
+// let str1 = 'Manish'
+// let srt2 = 'Rawat'
+
+// let result = str1.concat(srt2)
+// let result = "My name is" + " "+ str1 + " " + srt2
+// let result = `My name is ${str1} ${srt2}`
+
+// console.log(result);
+
+
+// let fullName = prompt(`Enter your full name here`)
+
+// let fullNameLength = fullName.length
+
+// let userName = `@${fullName.toLocaleLowerCase()}${fullNameLength}`
+
+// console.log(userName);
