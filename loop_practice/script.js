@@ -498,3 +498,30 @@
 // let userName = `@${fullName.toLocaleLowerCase()}${fullNameLength}`
 
 // console.log(userName);
+
+
+// print average of the number in array
+
+// let numberOfStudents = [85, 97, 44, 37, 76, 60]
+
+// let sum = 0
+
+// for (let i = 0; i < numberOfStudents.length; i++) {
+//     sum = sum + numberOfStudents[i]
+// }
+
+// let averageNum = sum / numberOfStudents.length
+
+// console.log(averageNum);
+
+
+// print the 10% off price in the given array
+
+// let prices = [250, 645, 300, 900, 50]
+
+// for (i = 0; i < prices.length; i++) {
+//     let offer = prices[i] / 10
+//     prices[i] = prices[i] - offer
+// }
+
+// console.log(prices);
